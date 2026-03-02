@@ -1,0 +1,15 @@
+public class Main11 {
+    public static void main(String[] args) {
+        Computer gamingPC = new Computer.Builder("Intel i9", "32GB")
+                .setHDD("1TB SSD")
+                .setGraphics("NVIDIA RTX 4090")
+                .build();
+
+        Computer officePC = new Computer.Builder("Intel i5", "16GB")
+                .setHDD("512GB SSD")
+                .build();
+
+        System.out.println(gamingPC);
+        System.out.println(officePC);
+    }
+}

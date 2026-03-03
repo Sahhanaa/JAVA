@@ -4,12 +4,10 @@ package morngclassparithabangal;
 import java.util.Scanner;
 
 class Laptop {
-
-    // Required fields
+    
     private String brand;
     private String ram;
 
-    // Optional fields
     private boolean ssd;
     private boolean graphicsCard;
     private boolean extendedWarranty;
@@ -108,3 +106,4 @@ public class Main {
         laptop.display();
     }
 }
+

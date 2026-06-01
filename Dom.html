@@ -1,0 +1,72 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Driven Program</title>
+</head>
+<body>
+    <h2 id="text">Hello DOM</h2>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <br><br>
+    <button onclick="readText()">1. Read Text from DOM</button>
+    <button onclick="addNumbers()">2. Add Two Numbers</button>
+    <button onclick="changeCSS()">3. Change CSS</button>
+    <button onclick="exitProgram()">4. Exit</button>
+    <p id="result"></p>
+    <script>
+        function readText() {
+            let text = document.getElementById("text").innerHTML;
+            alert("Text: " + text);
+        }
+        function addNumbers() {
+            let n1 = Number(document.getElementById("num1").value);
+            let n2 = Number(document.getElementById("num2").value);
+
+            document.getElementById("result").innerHTML =
+                "Sum = " + (n1 + n2);
+        }
+        function changeCSS() {
+            let heading = document.getElementById("text");
+
+            heading.style.color = "blue";
+            heading.style.fontSize = "40px";
+            heading.style.backgroundColor = "yellow";
+        }
+        function exitProgram() {
+            alert("Program Exited");
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu DOM Operations</title>
+</head>
+<body>
+    <h1 id="text">Welcome to DOM Operations</h1>
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="increaseFont()">Increase Font Size</button>
+    <button onclick="hideElement()">Hide Element</button>
+    <button onclick="exitMenu()">Exit</button>
+    <script>
+        function changeColor() {
+            document.getElementById("text").style.color = "red";
+        }
+        function increaseFont() {
+            document.getElementById("text").style.fontSize = "40px";
+        }
+        function hideElement() {
+            document.getElementById("text").style.display = "none";
+        }
+        function exitMenu() {
+            alert("Program Exited");
+        }
+    </script>
+</body>
+</html>
